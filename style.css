@@ -1,0 +1,95 @@
+/* Existing styles */
+.app-image {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 4px;
+}
+
+.status.active {
+    background-color: #2ecc71 !important;
+    color: white !important;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.status.inactive {
+    background-color: #e74c3c !important;
+    color: white !important;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.action-link {
+    color: #0d6efd;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.action-link:hover {
+    text-decoration: underline;
+}
+
+textarea.form-control {
+    min-height: 100px;
+}
+
+.error {
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+
+.success {
+    color: #198754;
+    margin-bottom: 15px;
+}
+
+/* New styles */
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.badge {
+    font-size: 0.875em;
+    font-weight: 600;
+    padding: 0.35em 0.65em;
+}
+
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Star rating */
+.fa-star, .fa-star-half-alt {
+    color: #ffc107;
+}
+
+/* Card styles */
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
